@@ -1,10 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;;
 }
 #cabeçalho {
-    background-color: #BF9F63;
+    background-color: #08003c;
     height: 350px;
     padding-top: 20px;
     color: white;
@@ -17,25 +18,33 @@
     margin: auto;
     display: block;
     box-shadow: 3px 3px 11px  rgba(0, 0, 0, 0.433);
-    
+    border: 2px solid white;   
+}
+
+#fotoperfil::before{
+    content: "";
     
 }
 
 .fa-brands {
-    color: rgb(60, 59, 59);
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    padding: 2px;
+    padding: 6px;
+}
+.fa-brands:hover {
+    
 }
 
 #cabeçalho > h1 {
-    color: rgb(60,59,59);
-    
-    
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+   
 }
 #cabeçalho > p {
-    color: rgb(60,59,59);
+    color: rgb(255, 255, 255);
     margin-bottom: 0px;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 700px) {
