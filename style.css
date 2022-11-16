@@ -1,3 +1,27 @@
-#carouselExampleCaptions {
-    min-width: 300px;  
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#cabeçalho {
+    background-color: #BF9F63;
+    height: 350px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#cabeçalho > #fotoperfil {
+    border-radius: 100%;
+    width: 200px;
+    margin: auto;
+    display: block;
+    box-shadow: 3px 3px 11px  rgba(0, 0, 0, 0.433);
+    
+    
+}
+
+.fa-brands {
+    color: rgb(60, 59, 59);
+    font-size: 30px;
 }
