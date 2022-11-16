@@ -24,4 +24,16 @@
 .fa-brands {
     color: rgb(60, 59, 59);
     font-size: 30px;
+    padding: 2px;
+}
+
+#cabeçalho > h1 {
+    color: rgb(60,59,59);
+    
+    
+}
+#cabeçalho > p {
+    color: rgb(60,59,59);
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
