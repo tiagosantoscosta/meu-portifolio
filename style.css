@@ -18,7 +18,7 @@
     margin: auto;
     display: block;
     box-shadow: 3px 3px 11px  rgba(0, 0, 0, 0.433);
-    border: 2px solid white;   
+    border: 0px solid white;   
 }
 
 #fotoperfil::before{
@@ -32,7 +32,7 @@
     padding: 6px;
 }
 .fa-brands:hover {
-    
+
 }
 
 #cabeçalho > h1 {
