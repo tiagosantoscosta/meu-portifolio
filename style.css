@@ -4,9 +4,25 @@
     box-sizing: border-box;
     font-family:'Montserrat', sans-serif;;
 }
+
+
+
+nav {
+    background-image: linear-gradient(rgb(9, 9, 51),#08003c);
+}
+nav #menu a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 #cabeçalho {
     background-color: #08003c;
-    height: 350px;
+    height: 500px;
     padding-top: 20px;
     color: white;
     text-align: center;
@@ -28,30 +44,98 @@
 
 .fa-brands {
     color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 6px;
+    font-size: 40px;
+    padding: 0px 6px 0px 6px;
 }
-.fa-brands:hover {
 
+.fa-brands:hover {
+    color: rgb(54,253,143);;
+    transform: scale(1.3);
+    transition: all 0.2s linear;
 }
 
 #cabeçalho > h1 {
     color: rgb(255, 255, 255);
     font-weight: 700;
+    margin-top: 15px;
    
 }
-#cabeçalho > p {
-    color: rgb(255, 255, 255);
-    margin-bottom: 0px;
-    margin-top: 20px;
-    font-weight: 600;
+
+#cabeçalho > #p1 {
+    color: rgb(54,253,143);
+    font-weight: 300;
+    font-size: 1.2em;  
+}
+
+#cabeçalho > #p2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+#cabeçalho > #p3 {
+    font-size: 20px; 
+    font-weight: 500;
+    margin-top: 40px;   
+}
+
+#icons {
+    height: 200px;
 }
 
 @media screen and (min-width: 700px) {
     #cabeçalho {
-        height: 360px;
+        height: 620px;
+        background-image: url(imagens/backgound.png);
+        background-size: cover; 
+        background-position: center center;
         
     }
 
-}
+    #cabeçalho > #fotoperfil {
+        float: right;
+        margin-right: 150px;
+        margin-top: 70px;
+        width: 400px;
+        
+    }
+
+    #cabeçalho > h1 {
+        margin-top: 90px;
+        font-size: 5em; 
+        
+    }
+
+    #cabeçalho > p {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 2em;   
+    }
+    #cabeçalho > #p1 {
+        color: rgb(54,253,143);
+        font-size: 2em;
+    }
+
+    #cabeçalho > #p2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 500;
+        padding-left: 20px;
+    }
+
+    #cabeçalho > #p3 {
+        font-size: 20px; 
+        font-weight: 500;
+        margin-top: 80px;
+    }
+    .fa-brands {
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        padding: 12px;
+        
+    }
+}   
+
     
