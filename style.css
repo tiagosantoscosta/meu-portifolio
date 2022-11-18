@@ -84,6 +84,23 @@ nav #menu a {
     height: 200px;
 }
 
+#sobremim h2 {
+    margin-bottom: 20px;
+    
+}
+#sobremim {
+    background-color: rgb(230, 229, 229);
+    text-align: center;
+    padding: 70px 40px 70px 40px;
+    font-weight: 500;
+    color: #08003C;
+    font-size: 20px;
+    
+}
+
+
+
+
 @media screen and (min-width: 700px) {
     #cabeçalho {
         height: 620px;
