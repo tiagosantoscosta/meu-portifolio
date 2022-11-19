@@ -33,8 +33,8 @@ nav #menu a {
 #cabeçalho {
     background-image: url(imagens/Lovepik_com-400421567-background-of-science-and-technology-mobile-wallpaper_hb.jpg);
     background-size: cover;
-    height: 520px;
-    padding-top: 20px;
+    height: 560px;
+    padding-top: 70px;
     color: white;
     text-align: center;
 }
@@ -44,8 +44,7 @@ nav #menu a {
     width: 200px;
     margin: auto;
     display: block;
-    box-shadow: 3px 3px 11px  rgba(0, 0, 0, 0.433);
-    border: 0px solid white;   
+    box-shadow: 3px 3px 11px  rgba(0, 0, 0, 0.433);   
 }
 
 #fotoperfil::before{
@@ -123,7 +122,7 @@ nav #menu a {
 
 @media screen and (min-width: 800px) {
     #cabeçalho {
-        height: 620px;
+        height: 640px;
         background-image: url(imagens/backgound.png);
         background-size: cover; 
         background-position: center center;
