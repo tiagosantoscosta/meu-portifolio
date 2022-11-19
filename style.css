@@ -20,6 +20,16 @@ nav #menu a {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+#cabeçalho > #elementEl::after{
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;   
+}
+
+@keyframes blink{
+    0% { opacity: 1;}
+    100% { opacity: 0;}
+}
 #cabeçalho {
     background-color: #08003c;
     height: 500px;
@@ -58,6 +68,7 @@ nav #menu a {
     color: rgb(255, 255, 255);
     font-weight: 700;
     margin-top: 15px;
+    font-size: 35px;
    
 }
 
@@ -118,7 +129,7 @@ nav #menu a {
     }
 
     #cabeçalho > h1 {
-        margin-top: 90px;
+        margin-top: 130px;
         font-size: 5em; 
         
     }
@@ -144,7 +155,7 @@ nav #menu a {
     #cabeçalho > #p3 {
         font-size: 20px; 
         font-weight: 500;
-        margin-top: 80px;
+        margin-top: 100px;
     }
     .fa-brands {
         color: rgb(255, 255, 255);
@@ -156,6 +167,16 @@ nav #menu a {
         padding: 70px 300px 70px 130px;
         font-size: 22px;
         
+    }
+    #cabeçalho > #elementEl::after{
+        content: '|';
+        
+        animation: blink 0.7s infinite;   
+    }
+    
+    @keyframes blink{
+        0% { opacity: 1;}
+        100% { opacity: 0;}
     }
 }   
 
