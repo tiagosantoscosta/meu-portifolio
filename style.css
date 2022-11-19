@@ -39,7 +39,7 @@ nav #menu a {
     text-align: center;
 }
 
-#cabeçalho > #fotoperfil {
+#cabeçalho #fotoperfil {
     border-radius: 100%;
     width: 200px;
     margin: auto;
@@ -92,7 +92,7 @@ nav #menu a {
 }
 
 #icons {
-    height: 180px;
+    height: 12.5em;
     text-align: center;
     
 }
@@ -101,7 +101,8 @@ nav #menu a {
     color: #5757ac7a;
     font-size: 70px;
     padding: 0px 10px;
-    margin-top: 15px;
+    margin: 15px 0px 15px 0px;
+    
 }
 
 #sobremim h2 {
@@ -128,30 +129,44 @@ nav #menu a {
     padding: 20px;
     font-size: 27px;
 }
+.d-block {
+    height: 300px;
+    
+}
+#carouselExampleIndicators {
+    
+    width: 300px;
+    margin: auto;
+}
+
+#h2projetos {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 1.7em;
+}
 
 
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 1200px) {
     #cabeçalho {
         height: 640px;
         background-image: url(imagens/backgound.png);
         background-size: cover; 
-        background-position: center center;
-        
+        background-position: center center;   
     }
 
     #cabeçalho > #fotoperfil {
         float: right;
         margin-right: 150px;
         margin-top: 50px;
-        width: 400px;
-        
+        width: 400px;    
     }
 
     #cabeçalho > h1 {
-        margin-top: 150px;
-        font-size: 5em; 
-        
+        margin-top: 90px;
+        font-size: 5em;     
     }
 
     #cabeçalho > p {
@@ -179,9 +194,9 @@ nav #menu a {
     }
     .fa-brands {
         color: rgb(255, 255, 255);
-        font-size: 50px;
+        font-size: 3.125em;
         padding: 12px;
-        
+        margin-top: -15px;  
     }
   
     #icons {
