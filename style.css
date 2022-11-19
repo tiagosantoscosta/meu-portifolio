@@ -33,7 +33,6 @@ nav #menu a {
 #cabeçalho {
     background-image: url(imagens/Lovepik_com-400421567-background-of-science-and-technology-mobile-wallpaper_hb.jpg);
     background-size: cover;
-    background-position:;
     height: 520px;
     padding-top: 20px;
     color: white;
@@ -60,7 +59,7 @@ nav #menu a {
     padding: 0px 6px 0px 6px;
 }
 
-.fa-brands:hover {
+#cabeçalho .fa-brands:hover {
     color: rgb(54,253,143);;
     transform: scale(1.3);
     transition: all 0.2s linear;
@@ -94,7 +93,16 @@ nav #menu a {
 }
 
 #icons {
-    height: 200px;
+    height: 180px;
+    text-align: center;
+    
+}
+#icons .fa-brands{
+    
+    color: #5757ac7a;
+    font-size: 70px;
+    padding: 0px 10px;
+    margin-top: 15px;
 }
 
 #sobremim h2 {
@@ -102,9 +110,9 @@ nav #menu a {
     
 }
 #sobremim {
-    background-color: rgb(230, 229, 229);
+    background-color: rgb(232, 232, 232);
     text-align: left;
-    padding: 70px 15px 70px 15px;
+    padding: 20px 15px 15px 15px;
     font-weight: 400;
     color: #08003C;
     font-size: 17px;   
@@ -113,7 +121,7 @@ nav #menu a {
 
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     #cabeçalho {
         height: 620px;
         background-image: url(imagens/backgound.png);
@@ -164,6 +172,16 @@ nav #menu a {
         font-size: 50px;
         padding: 12px;
         
+    }
+  
+    #icons {
+        height: 270px;  
+    }
+    #icons .fa-brands{
+        margin-top: 60px;
+        color: #0000ff44;
+        font-size: 150px;
+        padding: 0px 30px;   
     }
     #sobremim {
         padding: 70px 300px 70px 130px;
