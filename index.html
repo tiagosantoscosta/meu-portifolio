@@ -6,17 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
     <link rel="shortcut icon" href="icons/favicon-32x32.png" type="image/x-icon">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- css -->
     <link rel="stylesheet" href="style.css">
+    <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link 
+    rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- animateds -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/13d05752c4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    <!-- navbar -->
     <header>
-      <nav class="navbar navbar-expand-lg  ">
+      <nav class="navbar fixed-top  navbar-expand-lg  ">
         <div id="menu" class="container-fluid">
           <a class="navbar-brand" href="#">Tiago Costa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,18 +34,16 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Pojetos</a>
+              <a class="nav-link" href="#projetos">Pojetos</a>
               <a class="nav-link" href="#sobremim">Sobre mim</a>
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#header">Contato</a>
             </div>
           </div>
         </div>
       </nav>
-
+      <!-- cabeçalho -->
      <div id="cabeçalho">
-      
         <img src="imagens/img-perfil.jpeg" alt="foto perfil" id="fotoperfil">
-        
         <h1 id="elementEl">Olá! Sou Tiago Costa</h1>
         <p id="p1">Desenvolvedor de software/web</p>
         <p id="p3">Minhas redes</p>
@@ -46,6 +53,7 @@
       </div>
       
     </header>
+    <!-- icones -->
     <div id="icons">
         <i class="fa-brands fa-html5"></i>
         <i class="fa-brands fa-css3-alt"></i>
@@ -54,12 +62,15 @@
         <i class="fa-brands fa-node"></i>
         <i class="fa-brands fa-python"></i> 
     </div>
-            <!-- Sobre mim -->
-    <section id="sobremim"> 
+    <!-- Sobre mim -->
+    <section id="sobremim" class="animate__animated animate__fadeInLeft"> 
       <h2><b>Sobre mim</b></h2>
       <p >Tenho 34 anos, graduando em Análise e Desenvolvimento de Sistemas, fascinado por tecnologia e suas soluções, sou extremamente obstinado, dedicado e comprometido com prazos e horários, estou em transição de carreira, estou estudando as principais tecnologias de desenvolvimento web como por exemplo <b>JavaScript</b>, <b>ReactJS</b>, <b>NodeJS</b>.<br> <br> Não medirei esforços em conhecer novas tecnologias, tenho conhecimentos com <b>Git</b>, <b>GitHub</b> e linguagem <b>Python</b>, estou em busca de uma oportunidade como desenvolvedor front-end ou back-end.
       </p>
-
+    </section>
+    <!-- Projetos -->
+    <section id="projetos">
+      <h2><b>Conheça alguns dos meus projetos</b></h2>
     </section>
 
     
