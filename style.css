@@ -31,8 +31,10 @@ nav #menu a {
     100% { opacity: 0;}
 }
 #cabeçalho {
-    background-color: #08003c;
-    height: 500px;
+    background-image: url(imagens/Lovepik_com-400421567-background-of-science-and-technology-mobile-wallpaper_hb.jpg);
+    background-size: cover;
+    background-position:;
+    height: 520px;
     padding-top: 20px;
     color: white;
     text-align: center;
