@@ -90,12 +90,11 @@ nav #menu a {
 }
 #sobremim {
     background-color: rgb(230, 229, 229);
-    text-align: center;
-    padding: 70px 40px 70px 40px;
-    font-weight: 500;
+    text-align: left;
+    padding: 70px 15px 70px 15px;
+    font-weight: 400;
     color: #08003C;
-    font-size: 20px;
-    
+    font-size: 17px;   
 }
 
 
@@ -151,6 +150,11 @@ nav #menu a {
         color: rgb(255, 255, 255);
         font-size: 50px;
         padding: 12px;
+        
+    }
+    #sobremim {
+        padding: 70px 300px 70px 130px;
+        font-size: 22px;
         
     }
 }   
