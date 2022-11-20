@@ -88,12 +88,15 @@ nav #menu a {
 #cabeçalho > #p3 {
     font-size: 20px; 
     font-weight: 500;
-    margin-top: 40px;   
+    margin-top: 30px; 
+    margin-bottom: 3px;
+      
 }
 
 #icons {
     height: 12.5em;
     text-align: center;
+    
     
 }
 #icons .fa-brands{
