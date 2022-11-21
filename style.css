@@ -126,11 +126,11 @@ nav #menu a {
     height: 800px;
 }
 
-#h2projetos {
+section #h2projetos {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
-    font-size: 27px;
+    font-size: 30px;
 }
 .d-block {
     height: 300px;
