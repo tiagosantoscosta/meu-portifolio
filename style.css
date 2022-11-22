@@ -146,6 +146,19 @@ section #h2projetos {
     font-size: 1.7em;
 }
 
+.proj {
+    color: aliceblue;
+    text-align: center
+}
+
+#calculadora {
+       
+}
+
+#webpage {
+    
+    
+}
 
 
 
@@ -196,7 +209,7 @@ section #h2projetos {
         color: rgb(255, 255, 255);
         font-size: 3.125em;
         padding: 12px;
-        margin-top: -15px;  
+        margin-top: -8px;  
     }
   
     #icons {
