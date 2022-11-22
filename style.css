@@ -139,25 +139,19 @@ section #h2projetos {
 }
 
 .proj {
-    color: rgb(8, 0, 61);
-    text-align: center;
-     
+    text-align: center;      
 }
 
 .imag {
-    height: 220px;
-    margin-bottom: 15px;
-    
-    
-    
-    
+    height: 200px;
+    margin-bottom: 15px;      
 }
 
 #calculadora, #webpage, #login, #portifolio {
     display: block;
     margin: auto;
-    height: 500px;
-    width: 320px;
+    height: 400px;
+    width: 291px;
     border: 0px solid rgb(8, 0, 61);
     border-radius: 5px;
     overflow: hidden;
@@ -165,6 +159,12 @@ section #h2projetos {
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.427);
     background-color: rgb(255, 255, 255);  
     font-weight: 600;
+}
+
+.h2card {
+    color: rgb(8, 0, 61);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
