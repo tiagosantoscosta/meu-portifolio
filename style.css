@@ -120,7 +120,7 @@ nav #menu a {
 
 #projetos {
     background-color: rgb(241, 241, 241);
-    height: 140em;
+    height: 150em;
 }
 
 section #h2projetos {
@@ -150,7 +150,7 @@ section #h2projetos {
 #calculadora, #webpage, #login, #portifolio {
     display: block;
     margin: auto;
-    height: 400px;
+    height: 420px;
     width: 291px;
     border: 0px solid rgb(8, 0, 61);
     border-radius: 5px;
@@ -172,7 +172,10 @@ section #h2projetos {
     font-size: 17px;
     padding: 0px 15px;
 }
-
+footer {
+    background-color: rgb(33, 33, 33);
+    height: 500px;
+}
 
 
 @media screen and (min-width: 1200px) {
