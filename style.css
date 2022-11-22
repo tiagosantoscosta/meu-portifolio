@@ -119,7 +119,7 @@ nav #menu a {
 }
 
 #projetos {
-    background-color: #ffffff;
+    background-color: rgb(241, 241, 241);
     height: 140em;
 }
 
@@ -149,6 +149,8 @@ section #h2projetos {
     margin-bottom: 15px;
     
     
+    
+    
 }
 
 #calculadora, #webpage, #login, #portifolio {
@@ -156,12 +158,12 @@ section #h2projetos {
     margin: auto;
     height: 500px;
     width: 320px;
-    border: 1px solid rgb(8, 0, 61);
-    border-radius: 15px;
+    border: 0px solid rgb(8, 0, 61);
+    border-radius: 5px;
     overflow: hidden;
     margin-bottom: 20px;
     box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.427);
-    background-color: rgb(238, 238, 238);  
+    background-color: rgb(255, 255, 255);  
     font-weight: 600;
 }
 
