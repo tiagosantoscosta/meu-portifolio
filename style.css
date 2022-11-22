@@ -59,7 +59,7 @@ nav #menu a {
 }
 
 #cabeçalho .fa-brands:hover {
-    color: rgb(54,253,143);;
+    color: rgb(54,253,143);
     transform: scale(1.3);
     transition: all 0.2s linear;
 }
@@ -120,7 +120,7 @@ nav #menu a {
 
 #projetos {
     background-color: #08003C;
-    height: 800px;
+    height: 140em;
 }
 
 section #h2projetos {
@@ -129,15 +129,7 @@ section #h2projetos {
     padding: 20px;
     font-size: 30px;
 }
-.d-block {
-    height: 300px;
-    
-}
-#carouselExampleIndicators {
-    
-    width: 300px;
-    margin: auto;
-}
+
 
 #h2projetos {
     text-align: center;
@@ -148,15 +140,21 @@ section #h2projetos {
 
 .proj {
     color: aliceblue;
-    text-align: center
+    text-align: center;
+     
 }
 
-#calculadora {
-       
-}
-
-#webpage {
+.imag {
+    height: 200px;
+    border-radius: 3px;
     
+}
+
+#calculadora, #webpage, #login, #portifolio {
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 300px;
     
 }
 
