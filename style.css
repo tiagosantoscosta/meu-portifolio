@@ -114,18 +114,18 @@ nav #menu a {
     text-align: left;
     padding: 20px 15px 15px 15px;
     font-weight: 400;
-    color: #08003C;
+    color: rgb(8, 0, 61);
     font-size: 17px;   
 }
 
 #projetos {
-    background-color: #08003C;
+    background-color: #ffffff;
     height: 140em;
 }
 
 section #h2projetos {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(8, 0, 61);
     padding: 20px;
     font-size: 30px;
 }
@@ -133,20 +133,21 @@ section #h2projetos {
 
 #h2projetos {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 40px;
     font-size: 1.7em;
 }
 
 .proj {
-    color: aliceblue;
+    color: rgb(8, 0, 61);
     text-align: center;
      
 }
 
 .imag {
     height: 220px;
-    border-radius: 3px;
+    margin-bottom: 15px;
+    
     
 }
 
@@ -154,9 +155,14 @@ section #h2projetos {
     display: block;
     margin: auto;
     height: 500px;
-    width: 330px;
-    
-    
+    width: 320px;
+    border: 1px solid rgb(8, 0, 61);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.427);
+    background-color: rgb(238, 238, 238);  
+    font-weight: 600;
 }
 
 
