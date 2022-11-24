@@ -191,7 +191,7 @@ footer {
     height: 500px;
 }
 
-[data-anime] {
+/* [data-anime] {
     opacity: 0;
     transition: 1s;
 }
@@ -208,7 +208,7 @@ footer {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 } 
-
+ */
 
 
 
