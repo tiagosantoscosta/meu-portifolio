@@ -174,11 +174,13 @@ section #h2projetos {
 }
 
 .icotopo .fa-regular {
-    font-size: 2.5em;
+    font-size: 3.5em;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     color: rgb(54,253,143);
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
 }
 
 
