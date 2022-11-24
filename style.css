@@ -173,14 +173,16 @@ section #h2projetos {
     padding: 0px 15px;
 }
 
+
 .icotopo .fa-regular {
     font-size: 3.5em;
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: rgb(54,253,143);
-    background-color: rgb(255, 255, 255);
     border-radius: 100%;
+    background-color: rgb(8, 0, 61);
+    border: 2px solid black;
 }
 
 
@@ -195,11 +197,11 @@ footer {
 }
 
 [data-anime="left"] {
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(-50px, 0, 0);
 }
 
 [data-anime="right"] {
-    transform: translate3d(100px, 0, 0);
+    transform: translate3d(50px, 0, 0);
 }
 
 [data-anime].animate {
