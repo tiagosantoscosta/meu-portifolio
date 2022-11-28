@@ -173,14 +173,22 @@ section #h2projetos {
 }
 
 
-#container-ico .fa-regular {
+.to-top {
     font-size: 3.0em;
     bottom: 20px;
     right: 20px;
     color: rgb(54,253,143);
     position: fixed;  
+    opacity: 0;
+    transition: all .4s;
+    pointer-events: none;
 }
 
+.to-top.active {
+    bottom: 40px;
+    pointer-events: auto;
+    opacity: 1;
+}
 
 
 footer {
@@ -296,10 +304,22 @@ footer {
         font-size: 4em;
     }
 
-    #container-ico .fa-regular {
+    .to-top {
         font-size: 3.5em;
-        bottom: 50px;
+        bottom: 30px;
         right: 30px;
+        position: fixed;
+        display: flex;
+        text-decoration: none;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s;
+    }
+
+    .to-top.active {
+        bottom: 100px;
+        pointer-events: auto;
+        opacity: 1;
     }
 
    
