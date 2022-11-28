@@ -148,7 +148,6 @@ section #h2projetos {
 }
 
 #calculadora, #webpage, #login, #portifolio {
-    display: block;
     margin: auto;
     height: 420px;
     width: 291px;
@@ -156,7 +155,7 @@ section #h2projetos {
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 30px;
-    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.427);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.427);
     background-color: rgb(255, 255, 255);  
     font-weight: 600;
 }
@@ -174,16 +173,14 @@ section #h2projetos {
 }
 
 
-.icotopo .fa-regular {
+#container-ico .fa-regular {
     font-size: 3.0em;
-    position: fixed;
     bottom: 20px;
     right: 20px;
     color: rgb(54,253,143);
-    border-radius: 100%;
-    
-    
+    position: fixed;  
 }
+
 
 
 footer {
@@ -200,8 +197,13 @@ footer {
     transform: translate3d(-100px, 0, 0);
 }
 
+
 [data-anime="up"] {
     transform: translate3d(0, 100px, 0);
+}
+[data-anime="down"] {
+    transform: translate3d(0, 100px, 0);
+   
 }
 
 [data-anime].animate {
@@ -287,7 +289,6 @@ footer {
         100% { opacity: 0;}
     }
 
-
     section #h2projetos {
         text-align: center;
         color: rgb(8, 0, 61);
@@ -295,11 +296,10 @@ footer {
         font-size: 4em;
     }
 
-    #ico2 .fa-regular {
+    #container-ico .fa-regular {
         font-size: 3.5em;
-        bottom: 30px;
+        bottom: 50px;
         right: 30px;
-        position: fixed;
     }
 
    
