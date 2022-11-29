@@ -190,37 +190,46 @@ section #h2projetos {
     opacity: 1;
 }
 
-#skills {
+#container-skills {
     background-color: rgb(8, 0, 61);
     color: white;
     height: 700px;
 }
 
+#skills {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
 
 #skills img {
+    
     height: 100px;
     filter: invert(100%);
     float: right;
     margin-right: 50px;
-    margin-top: 50px;  
-
+    margin-top: 90px;  
 }
 
 #skills h2 {
+    
     text-align: center;
-    padding-top: 20px;
+    padding-top: 28px;
     font-size: 1.7em;
     font-weight: 600;
 }
 
 #skills h3 {
+    margin-top: 20px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
     padding-left: 20px;
+    font-size: 18px;
 }
 
 #skills p {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-bottom: 6px;
 }
 
 
