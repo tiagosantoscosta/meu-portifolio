@@ -193,19 +193,17 @@ section #h2projetos {
 #skills {
     background-color: rgb(8, 0, 61);
     color: white;
+    height: 700px;
 }
 
-#skills #div1 {
-    height: 150px;
-}
 
 #skills img {
-    height: 80px;
-    display: block;
-    margin: auto;
+    height: 100px;
     filter: invert(100%);
-    margin-bottom: -40px;
-    
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;  
+
 }
 
 #skills h2 {
@@ -216,19 +214,15 @@ section #h2projetos {
 }
 
 #skills h3 {
-    text-align: center;
+    text-align: left;
     font-weight: 500;
+    padding-left: 20px;
 }
 
-#div2 {
-    height: 250px;
-    background-color: rgb(54, 253, 143);
+#skills p {
+    margin-left: 20px;
 }
 
-#div2 h3 {
-    padding-top: 50px;
-    color: rgb(8, 0, 61);
-}
 
 footer {
     background-color: rgb(33, 33, 33);
@@ -249,7 +243,7 @@ footer {
     transform: translate3d(0, 100px, 0);
 }
 [data-anime="down"] {
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, -100px, 0);
    
 }
 
