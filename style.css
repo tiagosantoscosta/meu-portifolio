@@ -5,11 +5,10 @@
     font-family:'Montserrat', sans-serif;;
 }
 
-
-
 nav {
     background-image: linear-gradient(rgb(9, 9, 51),hsla(248, 100%, 12%, 0.746));
 }
+
 nav #menu a {
     color: rgb(255, 255, 255);
 }
@@ -30,6 +29,7 @@ nav #menu a {
     0% { opacity: 1;}
     100% { opacity: 0;}
 }
+
 #cabeçalho {
     background-image: url(imagens/Lovepik_com-400421567-background-of-science-and-technology-mobile-wallpaper_hb.jpg);
     background-size: cover;
@@ -48,8 +48,7 @@ nav #menu a {
 }
 
 #fotoperfil::before{
-    content: "";
-    
+    content: "";   
 }
 
 .fa-brands {
@@ -68,8 +67,7 @@ nav #menu a {
     color: rgb(255, 255, 255);
     font-weight: 700;
     margin-top: 15px;
-    font-size: 35px;
-   
+    font-size: 35px;  
 }
 
 #cabeçalho > #p1 {
@@ -85,12 +83,12 @@ nav #menu a {
     font-weight: 500;
     padding: 20px;
 }
+
 #cabeçalho > #p3 {
     font-size: 20px; 
     font-weight: 500;
     margin-top: 30px; 
-    margin-bottom: 3px;
-      
+    margin-bottom: 3px;    
 }
 
 #icons {
@@ -98,6 +96,7 @@ nav #menu a {
     text-align: center;
     padding-top: 25px;    
 }
+
 #icons .fa-brands{
     color: #4f4cab7f;
     font-size: 70px; 
@@ -106,9 +105,9 @@ nav #menu a {
 
 
 #sobremim h2 {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
+
 #sobremim {
     background-color: rgb(232, 232, 232);
     text-align: left;
@@ -166,12 +165,12 @@ section #h2projetos {
     font-weight: 700;
     margin-bottom: 2px;
 }
+
 .proj p {
     font-weight: 400;
     font-size: 17px;
     padding: 0px 15px;
 }
-
 
 .to-top {
     font-size: 3.0em;
@@ -203,15 +202,10 @@ section #h2projetos {
 }
 
 #skills img {
-    
-    height: 100px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 90px;  
+    height: 60px;
 }
 
 #skills h2 {
-    
     text-align: center;
     padding-top: 28px;
     font-size: 1.7em;
@@ -220,16 +214,36 @@ section #h2projetos {
 
 #skills h3 {
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
     font-weight: 500;
-    padding-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #skills p {
     margin-left: 30px;
     margin-bottom: 6px;
     font-size: 16px;
+}
+
+.dropdown {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+#dropdownMenuButton {
+    background-color: rgb(8, 0, 61);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    background-color: rgb(172, 169, 195);
+    color: white;
+    border: none;
+    width: 300px;
+    margin-left: -30px;
 }
 
 
@@ -247,13 +261,12 @@ footer {
     transform: translate3d(-100px, 0, 0);
 }
 
-
 [data-anime="up"] {
     transform: translate3d(0, 100px, 0);
 }
+
 [data-anime="down"] {
     transform: translate3d(0, -100px, 0);
-   
 }
 
 [data-anime].animate {
@@ -261,8 +274,6 @@ footer {
     transform: translate3d(0px, 0px, 0px);
 } 
  
-
-
 
 @media screen and (min-width: 1200px) {
     #cabeçalho {
@@ -289,6 +300,7 @@ footer {
         font-weight: 300;
         font-size: 2em;   
     }
+
     #cabeçalho > #p1 {
         color: rgb(54,253,143);
         font-size: 2em;
@@ -307,6 +319,7 @@ footer {
         font-weight: 500;
         margin-top: 50px;
     }
+
     .fa-brands {
         color: rgb(255, 255, 255);
         font-size: 3.125em;
@@ -317,17 +330,19 @@ footer {
     #icons {
         height: 300px;  
     }
+
     #icons .fa-brands{
         margin-top: 0px;
         color: #4f4cab7f;
         font-size: 129px;
         padding: 0px 30px;   
     }
+
     #sobremim {
         padding: 70px 300px 70px 130px;
         font-size: 22px;
-        
     }
+
     #cabeçalho > #elementEl::after{
         content: '|';
         
