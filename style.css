@@ -212,7 +212,7 @@ section #h2projetos {
     float: right;
     margin-right: 60px;
     margin-top: -25px;
-    opacity: .8;
+    opacity: .9;
 }
 
 #container-skills h2 {
@@ -227,7 +227,7 @@ section #h2projetos {
     margin-top: -10px;
     text-align: center;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .skills h4 {
@@ -244,7 +244,7 @@ section #h2projetos {
 }
 
 .skills i {
-    color: rgb(207, 205, 205);
+    color: rgb(224, 224, 224);
 }
 
 .skills #img2 {
