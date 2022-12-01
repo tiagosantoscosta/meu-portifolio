@@ -297,8 +297,7 @@ nav #menu a {
     margin: 5px;
     color: white;
     background-color: rgb(77, 133, 135);
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 
 .card .btn1 {
@@ -317,6 +316,11 @@ nav #menu a {
     margin-top: 30px;
 }
 
+.card button:hover{
+    background-color: #141456;
+    transition: all .4s;
+}
+
 footer {
     background-color: rgb(33, 33, 33);
     height: 500px;
@@ -326,6 +330,11 @@ footer {
 [data-anime] {
     opacity: 0;
     transition: .5s;
+    
+}
+
+[data-anime="zoom"] {
+    
 }
 
 [data-anime="right"] {
@@ -350,7 +359,7 @@ footer {
 } 
  
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     #cabeçalho {
         height: 640px;
         background-image: url(imagens/backgound.png);
@@ -456,9 +465,6 @@ footer {
         opacity: 1;
     }
 
-    #projetos {
-        height: 1200px; 
-    }
 
     #tituloProjetos {
         text-align: center;
@@ -472,9 +478,7 @@ footer {
         margin: 20px 50px 60px 50px;
     }
 
-    .card button:hover{
-        background-color: #23238b;
-        transition: all .4s;
-    }
    
+
+    
 }
