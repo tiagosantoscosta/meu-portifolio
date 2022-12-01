@@ -116,75 +116,6 @@ nav #menu a {
     font-size: 17px;   
 }
 
-#projetos {
-    background-color: rgb(241, 241, 241);
-    height: 150em;
-}
-
-section #h2projetos {
-    text-align: center;
-    color: rgb(8, 0, 61);
-    padding: 20px;
-    font-size: 30px;
-}
-
-
-#h2projetos {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 40px;
-    font-size: 1.7em;
-}
-
-.proj {
-    text-align: center;      
-}
-
-.imag {
-    height: 200px;
-    margin-bottom: 15px;      
-}
-
-#calculadora, #webpage, #login, #portifolio {
-    margin: auto;
-    height: 420px;
-    width: 291px;
-    border: 0px solid rgb(8, 0, 61);
-    border-radius: 5px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.427);
-    background-color: rgb(255, 255, 255);  
-    font-weight: 600;
-}
-
-.h2card {
-    color: rgb(8, 0, 61);
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 2px;
-}
-
-.proj p {
-    font-weight: 400;
-    font-size: 17px;
-    padding: 0px 15px;
-}
-
-#projetos button {
-    border: none;
-    padding: 5px 8px;
-    border-radius: 7px;
-    margin: 5px;
-    color: white;
-    background-color: cadetblue;
-    font-weight: 500;
-
-}
-
-#projetos .btn1 {
-    padding: 5px 17px;
-}
 .to-top {
     font-size: 3.0em;
     bottom: 20px;
@@ -203,8 +134,7 @@ section #h2projetos {
 }
 
 
-
-
+  /* Skills */
 #container-skills {
     background-color: rgb(8, 0, 61);
     color: white;
@@ -270,35 +200,123 @@ section #h2projetos {
 
 .vn-green a{
     background-color: rgb(54,253,143);
-      display:inline-block;
-      position:relative;
-      padding:10px 3px 10px 40px;
-      color:rgb(8, 0, 61);
-      transition:all 0.2s ease;
-      border-radius: 4px ;
-      font-weight: 600;
-      font-size: 20px;
-    }
+    display:inline-block;
+    position:relative;
+    padding:10px 3px 10px 40px;
+    color:rgb(8, 0, 61);
+    transition:all 0.2s ease;
+    border-radius: 4px ;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.vn-green a:before{
+    content:"\f019";
+    font-family:fontAwesome;
+    position:absolute;
+    text-decoration: inherit;
+    font-size:28px;
+    border-radius:4px 20px 0 4px;
+    color:rgb(8, 0, 61);
+    background-color:rgba(255, 255, 255, 0.572);
     
-    .vn-green a:before{
-      content:"\f019";
-      font-family:fontAwesome;
-      position:absolute;
-      text-decoration: inherit;
-      font-size:28px;
-      border-radius:4px 20px 0 4px;
-      color:rgb(8, 0, 61);
-      background-color:rgba(255, 255, 255, 0.572);
-      
-      padding: 5px 5px 3px ;
-      top:0;
-      left:0;
-    }
-    
-    .vn-green a:hover{
-      background-color: rgb(80, 222, 80);
-      transform: scale(1.1);
-    }
+    padding: 5px 5px 3px ;
+    top:0;
+    left:0;
+}
+
+.vn-green a:hover{
+    background-color: rgb(80, 222, 80);
+    transform: scale(1.1);
+}
+
+
+ /* Projetos */
+#projetos {
+    background-color: rgb(241, 241, 241);  
+}
+
+#tituloProjetos {
+    text-align: center;
+    color: rgb(8, 0, 61);
+    padding: 20px 20px 0px 20px;
+    font-size: 30px;
+}
+
+#container-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    max-width: 1200px;
+    margin: auto;      
+   
+}
+
+
+.imag {
+    height: 200px;
+    margin-bottom: 15px;      
+}
+
+.card {
+    display: flex;
+    text-align: center; 
+    display: inline;   
+    margin: auto;
+    height: 420px;
+    width: 291px;
+    border: 0px solid rgb(8, 0, 61);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.427);
+    background-color: rgb(255, 255, 255);  
+    font-weight: 600;
+    margin: 20px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card h2 {
+    color: rgb(8, 0, 61);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 15px;
+}
+
+.card button {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 7px;
+    margin: 5px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: 500;
+}
+
+.card .btn1 {
+    padding: 5px 17px;
+}
+
+.card i{
+    font-size: 12px;
+}
+
+#webpage button{
+    margin-top: 56px;
+}
+
+#login button{
+    margin-top: 30px;
+}
 
 footer {
     background-color: rgb(33, 33, 33);
@@ -350,7 +368,7 @@ footer {
     
     #cabeçalho > #fotoperfil {
         float: right;
-        margin-right: 150px;
+        margin-right: 100px;
         margin-top: 50px;
         width: 400px;    
     }
@@ -418,13 +436,8 @@ footer {
         0% { opacity: 1;}
         100% { opacity: 0;}
     }
+    
 
-    section #h2projetos {
-        text-align: center;
-        color: rgb(8, 0, 61);
-        padding: 40px;
-        font-size: 4em;
-    }
 
     .to-top {
         font-size: 3.5em;
@@ -444,5 +457,25 @@ footer {
         opacity: 1;
     }
 
+    #projetos {
+        height: 1200px; 
+    }
+
+    #tituloProjetos {
+        text-align: center;
+        color: rgb(8, 0, 61);
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-size: 65px;  
+    }
+
+    .card {
+        margin: 20px 50px 60px 50px;
+    }
+
+    .card button:hover{
+        background-color: #23238b;
+        transition: all .4s;
+    }
    
 }

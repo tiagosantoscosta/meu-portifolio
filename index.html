@@ -35,7 +35,7 @@
             <div class="navbar-nav">
               <a class="nav-link" href="#sobremim">Sobre mim</a>
               <a class="nav-link" href="#projetos">Pojetos</a>
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#container-skills">Skills</a>
               <a class="nav-link" href="#contato">Contato</a>
             </div>
           </div>
@@ -128,41 +128,40 @@
     
     <!-- Projetos -->
     <section id="projetos">
-      <h2 id="h2projetos"><b>Conheça alguns dos meus projetos</b></h2>
 
-      <div id="calculadora" class="proj">
-        <img class="imag" src="imagens/calc3.jpg" alt="calculadora">
-        <h2 class="h2card">Calculadora</h2>
-        <p>Projeto desenvolvido ultilizando Html, Css e JavaScript, em um vídeo no YouTube.</p>
-        <button class="btn1">Acessar<i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
+      <h2 id="tituloProjetos"><b>Conheça alguns dos meus projetos</b></h2>
+      
+      <div id="container-projetos">
+        <div id="calculadora" class="card">
+          <img class="imag" src="imagens/calc3.jpg" alt="calculadora">
+          <h2 >Calculadora</h2>
+          <p>Projeto desenvolvido ultilizando Html, Css e JavaScript, em um vídeo no YouTube.</p>
+          <button class="btn1">Acessar <i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
+        </div>
+        <div id="webpage" class="card">
+          <img class="imag" src="imagens/web3.jpg" alt="webpage">
+          <h2 class="h2card">Webpage</h2>
+          <p>Projeto desenvolvido ultilizando Html e Css.</p>
+          <button class="btn1">Acessar <i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
+        </div>
+        <div id="login" class="card">
+          <img class="imag" src="imagens/login3.jpg" alt="login">
+          <h2 class="h2card">Login</h2>
+          <p>Projeto desenvolvido ultilizando Html, Css e conceitos de Media Queries.</p>
+          <button class="btn1">Acessar <i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
+        </div>
+        <div id="portifolio" class="card">
+          <img class="imag" src="imagens/portifolio.png" alt="login">
+          <h2 class="h2card">Portifólio</h2>
+          <p>Projeto desenvolvido ultilizando Html, Css, JavaScript e bibliotecas de animações.</p>
+          <button>Rep. GitHub</button>
+        </div>
+        <div id="portifolio" class="card">
+          <img class="imag" src="imagens/pexels-leeloo-thefirst-5428836.jpg" alt="login">
+          <h2 class="h2card">Mais em breve!</h2>
+        </div>
+      
       </div>
-
-      <div id="webpage" class="proj">
-        <img class="imag" src="imagens/web3.jpg" alt="webpage">
-        <h2 class="h2card">Webpage</h2>
-        <p>Projeto desenvolvido ultilizando Html e Css.</p>
-        <button class="btn1">Acessar<i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
-      </div>
-
-      <div id="login" class="proj">
-        <img class="imag" src="imagens/login3.jpg" alt="login">
-        <h2 class="h2card">Login</h2>
-        <p>Projeto desenvolvido ultilizando Html, Css e conceitos de Media Queries.</p>
-        <button class="btn1">Acessar<i class="fa-solid fa-arrow-right"></i></button> <button>Rep. GitHub</button>
-      </div>
-
-      <div id="portifolio" class="proj">
-        <img class="imag" src="imagens/portifolio.png" alt="login">
-        <h2 class="h2card">Portifólio</h2>
-        <p>Projeto desenvolvido ultilizando Html, Css, JavaScript e bibliotecas de animações.</p>
-        <button>Rep. GitHub</button>
-      </div>
-
-      <div id="portifolio" class="proj">
-        <img class="imag" src="imagens/pexels-leeloo-thefirst-5428836.jpg" alt="login">
-        <h2 class="h2card">Mais em breve!</h2>   
-      </div>
-         
     </section>
     
      <!-- botao voltar ao topo  -->
@@ -179,7 +178,15 @@
 
       </footer>
       
-      <script src="script.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+          max: 25,
+          speed: 400,
+        });
+      </script>
+
+
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
