@@ -441,8 +441,6 @@ footer {
         100% { opacity: 0;}
     }
     
-
-
     .to-top {
         font-size: 3.5em;
         bottom: 30px;
@@ -474,7 +472,37 @@ footer {
         margin: 20px 50px 60px 50px;
     }
 
-   
-
+    #container-skills{
+        height: 1500px;
+    }
     
+
+    #container-skills h2{
+        font-size: 65px;
+        padding-top: 60px;
+    }
+    #container-skills h3{
+        font-size: 45px;
+    }
+
+    .skills{
+        max-width: 600px;
+    }
+    .skills h4{
+        font-size: 35px;
+        margin-top: 70px;
+    }
+
+    .skills p{
+        font-size: 20px;
+    }
+
+    .skills img{
+        height: 200px;
+    }
+
+    .skills #img2{
+        height: 180px;
+    }
+   
 }
