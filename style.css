@@ -205,7 +205,7 @@ nav #menu a {
     padding:10px 3px 10px 40px;
     color:rgb(8, 0, 61);
     transition:all 0.2s ease;
-    border-radius: 4px ;
+    border-radius: 10px ;
     font-weight: 600;
     font-size: 20px;
 }
@@ -216,7 +216,7 @@ nav #menu a {
     position:absolute;
     text-decoration: inherit;
     font-size:28px;
-    border-radius:4px 20px 0 4px;
+    border-radius:10px 20px 0 10px;
     color:rgb(8, 0, 61);
     background-color:rgba(255, 255, 255, 0.572);
     
@@ -294,7 +294,7 @@ nav #menu a {
     
     border: none;
     padding: 8px 8px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin: 5px;
     color: white;
     background-color: cadetblue;
