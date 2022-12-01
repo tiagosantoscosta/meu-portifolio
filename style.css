@@ -293,7 +293,7 @@ nav #menu a {
 .card button {
     
     border: none;
-    padding: 5px 8px;
+    padding: 8px 8px;
     border-radius: 7px;
     margin: 5px;
     color: white;
@@ -303,7 +303,7 @@ nav #menu a {
 }
 
 .card .btn1 {
-    padding: 5px 17px;
+    padding: 8px 17px;
 }
 
 .card i{
