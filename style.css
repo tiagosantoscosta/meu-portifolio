@@ -199,11 +199,11 @@ nav #menu a {
 }
 
 .vn-green a{
-    background-color: rgb(54,253,143);
+    border: 2px solid white;
     display:inline-block;
     position:relative;
-    padding:10px 3px 10px 40px;
-    color:rgb(8, 0, 61);
+    padding:10px 10px 10px 50px;
+    color:rgb(255, 255, 255);
     transition:all 0.2s ease;
     border-radius: 10px ;
     font-weight: 600;
@@ -216,17 +216,20 @@ nav #menu a {
     position:absolute;
     text-decoration: inherit;
     font-size:28px;
-    border-radius:10px 20px 0 10px;
-    color:rgb(8, 0, 61);
-    background-color:rgba(255, 255, 255, 0.572);
-    padding: 5px 5px 3px ;
+    border-radius:5px 20px 0 5px;
+    color:rgb(255, 255, 255);
+    
+    padding: 5px 0px 5px 10px;
     top:0;
     left:0;
 }
 
 .vn-green a:hover{
-    background-color: rgb(80, 222, 80);
+    background-color:  rgb(36, 197, 108);
     transform: scale(1.1);
+    color: rgb(8, 0, 60);
+    font-weight: 600;
+    border: 0px solid ;
 }
 
 
@@ -473,9 +476,18 @@ footer {
     }
 
     #container-skills{
-        height: 1500px;
+        height: 1300px;
+        
     }
-    
+    #container2{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: auto;   
+    }
 
     #container-skills h2{
         font-size: 65px;
@@ -486,23 +498,34 @@ footer {
     }
 
     .skills{
-        max-width: 600px;
+        width: 500px;
+        border: 2px solid rgb(63, 68, 211);
+        
+        border-radius: 35px;
+        height: 450px;
+        padding: 0px 30px 30px 30px;
     }
     .skills h4{
-        font-size: 35px;
-        margin-top: 70px;
+        font-size: 30px;
+        margin-top: 50px;
     }
 
     .skills p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .skills img{
-        height: 200px;
+        height: 100px;
     }
 
     .skills #img2{
-        height: 180px;
+        height: 90px;
     }
-   
+    
+    #back {
+        height: 300px;
+        margin-top: 0px;
+        height: 450px;
+    }
+    
 }
