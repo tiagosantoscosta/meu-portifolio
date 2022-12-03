@@ -199,15 +199,18 @@ nav #menu a {
 }
 
 .vn-green a{
-    border: 2px solid white;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
     display:inline-block;
     position:relative;
     padding:10px 10px 10px 50px;
     color:rgb(255, 255, 255);
     transition:all 0.2s ease;
     border-radius: 10px ;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.268);
 }
 
 .vn-green a:before{
@@ -225,11 +228,12 @@ nav #menu a {
 }
 
 .vn-green a:hover{
-    background-color:  rgb(36, 197, 108);
+    background-color:  rgb(64, 44, 168);
     transform: scale(1.1);
-    color: rgb(8, 0, 60);
-    font-weight: 600;
-    border: 0px solid ;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    
+    
 }
 
 
