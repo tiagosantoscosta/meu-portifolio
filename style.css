@@ -190,7 +190,7 @@ nav #menu a {
 
 .skills #img2 {
     height: 85px;
-    margin-top: -30px;
+    margin-top: -80px;
 }
 
 .skills #img3 {
@@ -503,11 +503,13 @@ footer {
 
     .skills{
         width: 500px;
-        border: 2px solid rgb(63, 68, 211);
-        
+        border-top: 1px solid rgb(63, 68, 211);
+        border-left: 1px solid rgb(63, 68, 211);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
         border-radius: 35px;
         height: 450px;
         padding: 0px 30px 30px 30px;
+        background-color: rgba(255, 255, 255, 0.1);
     }
     .skills h4{
         font-size: 30px;
