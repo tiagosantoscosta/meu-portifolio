@@ -257,10 +257,18 @@ nav #menu a {
     flex-wrap: wrap;
     z-index: 1;
     max-width: 1200px;
-    margin: auto;      
-   
+    margin: auto;       
 }
-
+#girartela {
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+#aviso {
+    text-align: center;
+    padding: 0px 20px;
+    
+}
 .imag {
     height: 200px;
     margin-bottom: 15px;    
@@ -361,6 +369,11 @@ footer {
     transform: translate3d(0px, 0px, 0px);
 } 
  
+@media screen and (min-width: 600px) {
+    #girartela {
+        display: none;
+    }
+}
 
 @media screen and (min-width: 1000px) {
     #cabeçalho {
