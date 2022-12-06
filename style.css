@@ -257,7 +257,8 @@ nav #menu a {
     flex-wrap: wrap;
     z-index: 1;
     max-width: 1200px;
-    margin: auto;       
+    margin: auto;
+    padding-bottom: 30px;       
 }
 #girartela {
     height: 50px;
@@ -338,33 +339,36 @@ nav #menu a {
 
 
 #formulario div{
-    width: 500px;
+    width: 240px;
     margin: auto;
     display: block;
-    font-size: 20px;
-    padding-bottom: 70px;
+    font-size: 15px;
+    padding-bottom: 30px;
+    
 }
 
 #formulario h2{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 #formulario div form{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 #formulario div input{
-    width: 500px;
-    height: 48px;
+    width: 240px;
+    height: 40px;
     border-radius: 7px;
     border: 2px solid rgb(98, 98, 98); 
-    padding-left: 10px;
+    padding-left: 6px;
 }
 #formulario #btnenviar{
-    width: 230px;
+    width: 150px;
     font-weight: 500;
     display: block;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     padding-left: 0px;
     border: none;
     background-color: rgba(8, 0, 61, 1);
@@ -375,12 +379,13 @@ nav #menu a {
 
 textarea{
     padding-top: 8px;
-    padding-left: 10px;
+    padding-left: 6px;
     border-radius: 7px;
-    border: 2px solid rgb(98, 98, 98); 
+    border: 2px solid rgb(98, 98, 98);
+    width: 240px; 
 }
 
-footer {
+footer{
     background-color: rgb(33, 33, 33);
     height: 200px;
 }
@@ -592,6 +597,50 @@ footer {
         height: 300px;
         margin-top: 0px;
         height: 450px;
+    }
+
+    #formulario div{
+        width: 500px;
+        margin: auto;
+        display: block;
+        font-size: 20px;
+        padding-bottom: 70px;
+    }
+    
+    #formulario h2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #formulario div form{
+        margin-top: 20px;
+    }
+    #formulario div input{
+        width: 500px;
+        height: 48px;
+        border-radius: 7px;
+        border: 2px solid rgb(98, 98, 98); 
+        padding-left: 10px;
+    }
+    #formulario #btnenviar {
+        width: 230px;
+        font-weight: 500;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        padding-left: 0px;
+        border: none;
+        background-color: rgba(8, 0, 61, 1);
+        color: white;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.444);
+        border-radius: 10px;
+    }
+    
+    textarea{
+        padding-top: 8px;
+        padding-left: 10px;
+        border-radius: 7px;
+        border: 2px solid rgb(98, 98, 98);
+        width: 500px; 
     }
     
 }
