@@ -370,6 +370,7 @@ nav #menu a {
     background-color: rgba(8, 0, 61, 1);
     color: white;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.444);
+    border-radius: 10px;
 }
 
 textarea{
