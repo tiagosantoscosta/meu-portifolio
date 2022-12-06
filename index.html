@@ -161,11 +161,25 @@
         <i class="fa-regular fa-circle-up"></i>
       </a>
     
+    <section id="formulario">
+      <h2>Entre em contato</h2>
+      <div>
+        <form action="enviamsg.php" method="post">Nome</form>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome">
+
+        <form action="enviamsg.php" method="post">E-mail</form>
+        <input type="email" name="email" id="email" placeholder="Ex: exemplo@gmail.com" required placeholder="Ex: exemplo@gmail.com">
+
+        <form action="enviamsg.php" method="post">Mensagem</form>
+        <textarea name="msg" id="msg" cols="45" rows="5" placeholder="Sua mensagem. . ."></textarea> <br>
+        <input id="btnenviar" type="submit" value="Enviar">
+
+      </div>
+    </section>
 
   <!-- fotter  -->
       <footer>
         <div id="contato">
-
         </div>
 
       </footer>
