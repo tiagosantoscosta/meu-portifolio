@@ -60,6 +60,7 @@ nav #menu a {
     color: rgb(255, 255, 255);
     font-size: 40px;
     padding: 0px 6px 0px 6px;
+    margin-top: 10px;
 }
 
 
@@ -506,7 +507,7 @@ footer #title{
         color: rgb(255, 255, 255);
         font-size: 3.125em;
         padding: 12px;
-        margin-top: -8px;  
+        margin-top: 0px;  
     }
   
     #icons {
