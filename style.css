@@ -364,18 +364,18 @@ nav #menu a {
     margin: auto;
     display: block;
 }
-#formulario #btnenviar{
-    width: 150px;
+#formulario .btnform{
+    width: 100px;
     font-weight: 500;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    padding-left: 0px;
+    height: 40px;
+    margin-left: 32px;
+    display: inline;
     border: none;
     background-color: rgba(8, 0, 61, 1);
     color: white;
     border-radius: 7px;
 }
+
 
 label{
     margin-top: 15px;
