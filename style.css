@@ -339,29 +339,31 @@ nav #menu a {
 
 
 #formulario div{
-    width: 240px;
+    width: 300px;
     margin: auto;
     display: block;
     font-size: 15px;
     padding-bottom: 30px;
-    
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.379);
 }
 
 #formulario h2{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;
-    font-weight: 600;
+    margin-bottom: 5px;
+    font-weight: 800;
 }
-#formulario div form{
-    margin-top: 10px;
-}
+
 #formulario div input{
     width: 240px;
     height: 40px;
     border-radius: 7px;
-    border: 2px solid rgb(98, 98, 98); 
+    border: none;
+    border: 1px solid rgb(98, 98, 98); 
     padding-left: 6px;
+    margin: auto;
+    display: block;
 }
 #formulario #btnenviar{
     width: 150px;
@@ -377,12 +379,19 @@ nav #menu a {
     border-radius: 10px;
 }
 
+label{
+    margin-top: 15px;
+    margin-left: 35px;
+    font-weight: 600;
+}
 textarea{
     padding-top: 8px;
     padding-left: 6px;
     border-radius: 7px;
-    border: 2px solid rgb(98, 98, 98);
+    border: 1px solid rgb(98, 98, 98);
     width: 240px; 
+    display: block;
+    margin: auto;
 }
 
 footer{

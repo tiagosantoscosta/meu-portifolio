@@ -162,18 +162,20 @@
       </a>
     
     <section id="formulario">
-      <h2>Entre em contato</h2>
+      <h2>//Entre em contato</h2>
       <div>
-        <form action="enviamsg.php" method="post">Nome</form>
-        <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        <form action="enviamsg.php" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
 
-        <form action="enviamsg.php" method="post">E-mail</form>
+        <label for="email">E-mail</label>
         <input type="email" name="email" id="email" placeholder="Ex: exemplo@gmail.com" required placeholder="Ex: exemplo@gmail.com">
 
-        <form action="enviamsg.php" method="post">Mensagem</form>
-        <textarea name="msg" id="msg" cols="44" rows="5" placeholder="Sua mensagem. . ."></textarea> <br>
+        <label for="msg">Mensagem</label>
+        <textarea name="msg" id="msg" cols="44" rows="5" placeholder="Sua mensagem. . ." required></textarea> <br>
         <input id="btnenviar" type="submit" value="Enviar">
-
+        <input type="reset" value="Limpar">
+        </form>
       </div>
     </section>
 
