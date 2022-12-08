@@ -403,14 +403,14 @@ footer{
     height: 210px;
     color: rgb(151, 151, 151);
     text-align: center; 
-    padding-top: 30px;  
+    padding-top: 25px;  
 }
 
 footer #title{
     margin-top: -15px;
     margin-bottom: 20px;
     font-family: 'Allura', cursive;
-    font-size: 30px;
+    font-size: 34px;
     color: white;
 }
 
