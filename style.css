@@ -358,9 +358,9 @@ nav #menu a {
 #formulario div input{
     width: 260px;
     height: 40px;
-    border-radius: 4px;
-    border: none;
-    background-image: linear-gradient(white, rgba(112, 112, 210, 0.483));
+    border-radius: 6px;
+    
+    
     padding-left: 6px;
     margin: auto;
     display: block;
@@ -383,16 +383,16 @@ label{
     margin-top: 15px;
     margin-left: 25px;
     font-weight: 600;
+    color: rgb(8, 0, 61);
 }
 textarea{
     padding-top: 8px;
     padding-left: 6px;
-    border-radius: 7px;
-    border: none;
+    border-radius: 6px;
     width: 260px; 
     display: block;
     margin: auto;
-    background-image: linear-gradient(white, rgba(165, 165, 165, 0.483));
+    
 }
 
 footer{
