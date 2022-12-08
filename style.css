@@ -35,7 +35,7 @@ nav #menu a {
 }
 
 #cabeçalho {
-    background-image: url(imagens/Lovepik_com-400421567-background-of-science-and-technology-mobile-wallpaper_hb.jpg);
+    background-image: url(imagens/backgound2.jpg);
     background-size: cover;
     height: 560px;
     padding-top: 70px;
@@ -312,7 +312,7 @@ nav #menu a {
     border-radius: 10px;
     margin: 5px;
     color: white;
-    background-color: rgb(77, 133, 135);
+    background-color: #4d8587;
     font-weight: 500;  
 }
 
@@ -346,12 +346,13 @@ nav #menu a {
     padding-bottom: 30px;
     border-radius: 10px; 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
+    margin-bottom: 30px;
 }
 
 #formulario h2{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-weight: 800;
 }
 
@@ -371,9 +372,11 @@ nav #menu a {
     margin-left: 32px;
     display: inline;
     border: none;
-    background-color: rgba(8, 0, 61, 1);
+    background-color: #4d8587;
     color: white;
     border-radius: 7px;
+    padding-left: 0px;
+    
 }
 
 
