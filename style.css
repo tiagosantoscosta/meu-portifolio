@@ -8,7 +8,7 @@
 @import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
 a:link{text-decoration:none}
 
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 nav {
     background-image: linear-gradient(rgb(9, 9, 51),hsla(248, 100%, 12%, 0.746));
 }
@@ -346,7 +346,7 @@ nav #menu a {
     padding-bottom: 30px;
     border-radius: 10px; 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.245);
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 #formulario h2{
@@ -365,42 +365,53 @@ nav #menu a {
     margin: auto;
     display: block;
 }
+
+
 #formulario .btnform{
-    width: 100px;
+    width: 130px;
     font-weight: 500;
     height: 40px;
-    margin-left: 32px;
-    display: inline;
     border: none;
     background-color: #4d8587;
     color: white;
     border-radius: 7px;
     padding-left: 0px;
-    
+    font-size: 17px; 
+    margin-top: 10px;
+      
 }
-
 
 label{
     margin-top: 15px;
     margin-left: 25px;
     font-weight: 600;
     color: rgb(8, 0, 61);
-
 }
+
 textarea{
     padding-top: 8px;
     padding-left: 6px;
     border-radius: 6px;
     width: 260px; 
     display: block;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 footer{
     background-color: rgb(33, 33, 33);
     height: 200px;
+    color: white;
+    text-align: center; 
+    padding-top: 30px;  
 }
+
+footer h3{
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+
 
   /* Transições e animações de divs */
 [data-anime] {
@@ -612,11 +623,13 @@ footer{
     }
 
     #formulario div{
-        width: 500px;
+        width: 600px;
+        height: 540px;
         margin: auto;
         display: block;
         font-size: 20px;
         padding-bottom: 70px;
+        margin-bottom: 60px;
     }
     
     #formulario h2{
@@ -633,20 +646,10 @@ footer{
         border: 2px solid rgb(98, 98, 98); 
         padding-left: 10px;
     }
-    #formulario #btnenviar {
-        width: 230px;
-        font-weight: 500;
-        display: block;
-        margin: auto;
-        margin-top: 40px;
-        padding-left: 0px;
-        border: none;
-        background-color: rgba(8, 0, 61, 1);
-        color: white;
-        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.444);
-        border-radius: 10px;
+    label{
+        margin-left: 60px;
+        font-weight: 600;
     }
-    
     textarea{
         padding-top: 8px;
         padding-left: 10px;
@@ -654,5 +657,36 @@ footer{
         border: 2px solid rgb(98, 98, 98);
         width: 500px; 
     }
+    #formulario #btnenviar {
+        width: 230px;
+        height: 50px;
+        font-weight: 500;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 0px;
+        border: none;
+        background-color: #4d8587;
+        color: white;
+        border-radius: 7px;
+    }
+
+    footer span{
+        margin-top: -20px;
+        display: block;
+        text-align: center;
+        float: left;
+        margin-left: 250px;
+    }
+    span p{
+        font-size: 20px;
+    }
+    #footeremail{
+        margin-top: 40px;
+        font-size: 35px;
+    }
+    
+    
+    
     
 }

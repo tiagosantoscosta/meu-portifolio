@@ -21,6 +21,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/13d05752c4.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- navbar -->
@@ -162,6 +163,7 @@
       </a>
     
     <section id="formulario">
+      
       <h2>//Entre em contato</h2>
       <div>
         <form action="enviamsg.php" method="post">
@@ -173,8 +175,10 @@
 
         <label for="msg">Mensagem</label>
         <textarea name="msg" id="msg" cols="44" rows="5" placeholder="Sua mensagem. . ." required></textarea> <br>
-        <input class="btnform" type="submit" value="Enviar">
-        <input class="btnform" type="reset" value="Limpar">
+        
+        <input id="btnenviar"class="btnform" type="submit" value="Enviar">
+        
+        
         </form>
       </div>
     </section>
@@ -182,6 +186,12 @@
   <!-- fotter  -->
       <footer>
         <div id="contato">
+          <span>
+            <p>Desenvolvido por</p>
+            <h3>&#169;Tiago Costa</h3>
+          </span>
+          <p id="footeremail"><i class="fa-solid fa-envelope"></i> tiagocostta@outlook.com</p>
+          <p id="footerano">2022-2022</p>
         </div>
 
       </footer>
