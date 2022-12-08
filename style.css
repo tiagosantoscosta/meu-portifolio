@@ -360,7 +360,7 @@ nav #menu a {
     height: 40px;
     border-radius: 4px;
     border: none;
-    background-image: linear-gradient(white, rgba(165, 165, 165, 0.483));
+    background-image: linear-gradient(white, rgba(112, 112, 210, 0.483));
     padding-left: 6px;
     margin: auto;
     display: block;
