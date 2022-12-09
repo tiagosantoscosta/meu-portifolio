@@ -676,7 +676,7 @@ footer #title{
     }
     
     footer{
-        height: 260px;
+        height: 180px;
         color: rgb(151, 151, 151);
     }
     
@@ -686,8 +686,7 @@ footer #title{
     }
     #footeremail{
           font-size: 30px;
-          margin-top: 20px;
-          
+          margin-top: 0px;     
     }
     footer #title{
         font-size: 60px;
@@ -699,6 +698,7 @@ footer #title{
     }
     #footerano{
         font-size: 20px;
-        margin-top: 100px;
+        margin-top: 20px;
     }
+   
 }   
