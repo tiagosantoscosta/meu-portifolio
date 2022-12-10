@@ -45,7 +45,7 @@ nav #menu a {
 }
 
 #cabeçalho #fotoperfil {
-    border-radius: 100%;
+    border-radius: 62% 38% 55% 45% / 78% 69% 31% 22%  ;
     width: 200px;
     margin: auto;
     display: block;
@@ -518,7 +518,7 @@ footer #title{
         margin-top: 0px;
         color: #4f4cab7f;
         font-size: 129px;
-        padding: 0px 30px;   
+        padding: 8px 30px;   
     }
 
     #sobremim {
@@ -625,7 +625,12 @@ footer #title{
         margin-top: 0px;
         height: 450px;
     }
+    #formulario{
+        
+        
+    }
     
+
     #formulario div{
         width: 600px;
         height: 540px;
@@ -634,6 +639,7 @@ footer #title{
         font-size: 20px;
         padding-bottom: 70px;
         margin-bottom: 60px;
+        background-color: white;   
     }
     
     #formulario h2{
