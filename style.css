@@ -170,7 +170,7 @@ nav #menu a {
     margin-top: -10px;
     text-align: center;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .skills h4 {
@@ -625,11 +625,7 @@ footer #title{
         margin-top: 0px;
         height: 450px;
     }
-    #formulario{
-        
-        
-    }
-    
+
 
     #formulario div{
         width: 600px;
