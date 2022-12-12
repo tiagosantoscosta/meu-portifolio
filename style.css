@@ -409,13 +409,16 @@ footer{
 }
 
 footer #title{
-    margin-top: -15px;
+    margin-top: -25px;
     margin-bottom: 20px;
     font-family: 'Allura', cursive;
-    font-size: 34px;
+    font-size: 50px;
     color: white;
 }
-
+#footeremail{
+    margin-top: -25px;
+    font-size: 25px;
+}
 
 
   /* Transições e animações de divs */
