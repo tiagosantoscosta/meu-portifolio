@@ -385,11 +385,11 @@ nav #menu a {
 }
 
 label{
-    font-size: 17px;
     margin-top: 15px;
     margin-left: 25px;
     font-weight: 600;
     color: rgb(8, 0, 61);
+    font-size: 17px;
 }
 
 textarea{
@@ -418,7 +418,7 @@ footer #title{
 }
 #footeremail{
     margin-top: -25px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
