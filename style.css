@@ -425,24 +425,26 @@ footer #title{
     text-align: center;
     font-size: 20px;
     padding: 40px 20px ;
-    margin-top: 40%;
+    margin-top: 150px;
 }
 #check{
-    background-color: rgb(12, 205, 12);
+    background-color: rgb(101, 220, 101);
     border-radius: 100%;
     width: 150px;
     height: 150px;
     margin: auto;
     color: white;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
-#simbol{
-    padding-top: 60px;
-    
+
+#sucesso #simbol{
+    padding-top: 30px;
+    font-size: 65px;
+    font-weight: 700;
 }
+
 #sucesso p{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 #voltar{
@@ -450,11 +452,12 @@ footer #title{
     font-weight: 500;
     font-size: 20px;
     border-radius: 7px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.312);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.472);
     border: none;
     background-color: #4d8587;
     color: white;
     margin-top: 20px;
+    cursor: pointer;
 }
 
   /* Transições e animações de divs */
