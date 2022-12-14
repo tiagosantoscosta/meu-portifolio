@@ -116,7 +116,7 @@
 
      <!-- baixar curriculo  -->
      <div class="vn-green" style="text-align: center;">
-      <a href="doc/Exercicios_de_Programacao.pdf" class="btn-wrap" download > Baixar Currículo </a>
+      <a href="doc/Curriculo.pdf" class="btn-wrap" download > Baixar Currículo </a>
       </div>
     </section>
     
@@ -168,24 +168,24 @@
       
       <h2>//Entre em contato</h2>
       <div>
-        <form action="enviamsg.php" method="post">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
-
+        <form action="https://formsubmit.co/tiagocostta@outlook.com" method="post">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5501/sucesso.html">
+        <input type="hidden" name="_autoresponse" 
+        value="Recebi sua mensagem, obrigado pelo contato e logo responderei!">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="nome" placeholder="Seu nome" required>
         <label for="email">E-mail</label>
         <input type="email" name="email" id="email" placeholder="Ex: exemplo@gmail.com" required placeholder="Ex: exemplo@gmail.com">
-
-        <label for="msg">Mensagem</label>
-        <textarea name="msg" id="msg" cols="44" rows="5" placeholder="Sua mensagem. . ." required></textarea> <br>
-        
+        <label for="message">Mensagem</label>
+        <textarea name="menssagem" id="msg" cols="44" rows="5" placeholder="Sua mensagem. . ." required></textarea> <br>
         <input id="btnenviar"class="btnform" type="submit" value="Enviar">
-        
-        
         </form>
       </div>
+
     </section>
 
-  <!-- fotter  -->
+  <!-- footer  -->
       <footer>
         <div id="contato">
           <span>

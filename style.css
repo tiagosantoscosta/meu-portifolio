@@ -421,6 +421,41 @@ footer #title{
     font-size: 22px;
 }
 
+#sucesso{
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 20px ;
+    margin-top: 40%;
+}
+#check{
+    background-color: rgb(12, 205, 12);
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+#simbol{
+    padding-top: 60px;
+    
+}
+#sucesso p{
+    font-size: 25px;
+    font-weight: 600;
+}
+#voltar{
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.312);
+    border: none;
+    background-color: #4d8587;
+    color: white;
+    margin-top: 20px;
+}
 
   /* Transições e animações de divs */
 [data-anime] {
