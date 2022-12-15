@@ -367,6 +367,7 @@ nav #menu a {
     padding-left: 6px;
     margin: auto;
     display: block;
+    font-size: 18px;
 }
 
 
@@ -398,7 +399,8 @@ textarea{
     border-radius: 6px;
     width: 260px; 
     display: block;
-    margin: auto;   
+    margin: auto;  
+    font-size: 18px; 
 }
 
 footer{
@@ -416,6 +418,7 @@ footer #title{
     font-size: 50px;
     color: white;
 }
+
 #footeremail{
     margin-top: -25px;
     font-size: 22px;
