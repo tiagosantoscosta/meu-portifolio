@@ -462,6 +462,11 @@ footer #title{
     margin-top: 20px;
     cursor: pointer;
 }
+#sucesso #redirecionar {
+    font-size: 15px;
+    color: rgb(100, 99, 99);
+    padding: 25px 10px;
+}
 
   /* Transições e animações de divs */
 [data-anime] {
@@ -726,7 +731,12 @@ footer #title{
     #sucesso p{
         font-size: 30px;    
     }
-    
+    #sucesso #redirecionar {
+        font-size: 18px;
+        color: rgb(100, 99, 99);
+        padding: 25px 10px;
+        
+    }
     footer{
         height: 180px;
         color: rgb(151, 151, 151);
