@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -10,16 +10,15 @@ a:link{text-decoration:none}
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&display=swap');
 
-nav {
+nav{
     background-image: linear-gradient(rgb(9, 9, 51),hsla(248, 100%, 12%, 0.746));
 }
 
-nav #menu a {
+nav #menu a{
     color: rgb(255, 255, 255);
 }
 
 .navbar-toggler .navbar-toggler-icon {
-    
     background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -35,7 +34,7 @@ nav #menu a {
     100% { opacity: 0;}
 }
 
-#cabeçalho {
+#cabeçalho{
     background-image: url(imagens/background2.jpg);
     background-size: cover;   
     padding-top: 70px;
@@ -43,7 +42,7 @@ nav #menu a {
     text-align: center;
 }
 
-#cabeçalho #fotoperfil {
+#cabeçalho #fotoperfil{
     border-radius: 62% 38% 55% 45% / 78% 69% 31% 22%  ;
     width: 200px;
     margin: auto;
@@ -55,7 +54,7 @@ nav #menu a {
     content: "";   
 }
 
-.fa-brands {
+.fa-brands{
     color: rgb(255, 255, 255);
     font-size: 40px;
     padding: 0px 6px 0px 6px;
@@ -64,7 +63,7 @@ nav #menu a {
 }
 
 
-#cabeçalho > h1 {
+#cabeçalho > h1{
     color: rgb(255, 255, 255);
     font-weight: 700;
     margin-top: 15px;
@@ -72,13 +71,13 @@ nav #menu a {
     padding: 0px 20px;  
 }
 
-#cabeçalho > #p1 {
+#cabeçalho > #p1{
     color: rgb(54,253,143);
     font-weight: 300;
     font-size: 1.2em;  
 }
 
-#cabeçalho > #p2 {
+#cabeçalho > #p2{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
@@ -86,18 +85,18 @@ nav #menu a {
     padding: 20px;
 }
 
-#cabeçalho > #p3 {
+#cabeçalho > #p3{
     font-size: 20px; 
     font-weight: 500;
     margin-top: 30px; 
     margin-bottom: 3px;    
 }
 
-#icons {
+#icons{
     height: 11.5em;
     text-align: center;
     margin-top: 10px; 
-    margin-bottom: 17px;   
+    margin-bottom: 18px;   
 }
 
 #icons .fa-brands{
@@ -107,11 +106,11 @@ nav #menu a {
 }
 
 
-#sobremim h2 {
+#sobremim h2{
     margin-bottom: 20px;  
 }
 
-#sobremim {
+#sobremim{
     background-color: rgb(232, 232, 232);
     text-align: left;
     padding: 20px 15px 15px 15px;
@@ -120,7 +119,7 @@ nav #menu a {
     font-size: 17px;   
 }
 
-.to-top {
+.to-top{
     font-size: 3.0em;
     bottom: 20px;
     right: 0px;
@@ -131,7 +130,7 @@ nav #menu a {
     pointer-events: none;
 }
 
-.to-top.active {
+.to-top.active{
     right: 20px;
     pointer-events: auto;
     opacity: 1;
@@ -139,20 +138,20 @@ nav #menu a {
 
 
   /* Skills */
-#container-skills {
+#container-skills{
     background-color: rgb(8, 0, 61);
     color: white;
     height: 900px;
 }
 
-.skills {
+.skills{
     display: block;
     max-width: 450px;
     margin: auto;
     margin-bottom: 40px;
 }
 
-.skills img {
+.skills img{
     height: 100px;
     float: right;
     margin-right: 60px;
@@ -160,14 +159,14 @@ nav #menu a {
     opacity: .9;
 }
 
-#container-skills h2 {
+#container-skills h2{
     text-align: center;
     padding-top: 28px;
     font-size: 1.7em;
     font-weight: 600;
 }
 
-#container-skills h3 {
+#container-skills h3{
     color: rgb(54,253,143);
     margin-top: -10px;
     text-align: center;
@@ -175,29 +174,29 @@ nav #menu a {
     font-size: 18px;
 }
 
-.skills h4 {
+.skills h4{
     margin-top: 20px;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
 }
 
-.skills p {
+.skills p{
     margin-left: 40px;
     margin-bottom: 6px;
     font-size: 14px;
 }
 
-.skills i {
+.skills i{
     color: rgb(224, 224, 224);
 }
 
-.skills #img2 {
+.skills #img2{
     height: 85px;
     margin-top: -80px;
 }
 
-.skills #img3 {
+.skills #img3{
     height: 90px;
     margin-top: -50px;
 }
@@ -247,14 +246,14 @@ nav #menu a {
     
 }
 
-#tituloProjetos {
+#tituloProjetos{
     text-align: center;
     color: rgb(8, 0, 61);
     padding: 20px 20px 0px 20px;
     font-size: 30px;
 }
 
-#container-projetos {
+#container-projetos{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,22 +263,25 @@ nav #menu a {
     margin: auto;
     padding-bottom: 30px;       
 }
-#girartela {
+
+#girartela{
     height: 50px;
     margin: auto;
     display: block;
 }
-#aviso {
+
+#aviso{
     text-align: center;
     padding: 0px 20px;
     
 }
-.imag {
+
+.imag{
     height: 200px;
     margin-bottom: 15px;    
 }
 
-.card {
+.card{
     display: inline;
     text-align: center; 
     margin: auto;
@@ -297,20 +299,20 @@ nav #menu a {
     border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.card h2 {
+.card h2{
     color: rgb(8, 0, 61);
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 2px;
 }
 
-.card p {
+.card p{
     font-weight: 400;
     font-size: 17px;
     padding: 0px 15px;
 }
 
-.card button {
+.card button{
     border: none;
     padding: 8px 8px;
     border-radius: 10px;
@@ -320,7 +322,7 @@ nav #menu a {
     font-weight: 500;  
 }
 
-.card .btn1 {
+.card .btn1{
     padding: 8px 17px;
 }
 
@@ -340,7 +342,6 @@ nav #menu a {
     background-color: #141456;
     transition: all .4s;
 }
-
 
 #formulario div{
     width: 300px;
@@ -382,8 +383,7 @@ nav #menu a {
     border-radius: 7px;
     padding-left: 0px;
     font-size: 17px; 
-    margin-top: 10px;
-      
+    margin-top: 10px;     
 }
 
 label{
@@ -431,6 +431,7 @@ footer #title{
     padding: 40px 20px ;
     margin-top: 150px;
 }
+
 #check{
     background-color: rgb(101, 220, 101);
     border-radius: 100%;
@@ -463,6 +464,7 @@ footer #title{
     margin-top: 20px;
     cursor: pointer;
 }
+
 #sucesso #redirecionar {
     font-size: 17px;
     color: rgb(100, 99, 99);
@@ -555,25 +557,25 @@ footer #title{
         margin-top: 50px;
     }
 
-    .fa-brands {
+    .fa-brands{
         color: rgb(255, 255, 255);
         font-size: 3.125em;
         padding: 12px;
         margin-top: 0px;  
     }
   
-    #icons {
+    #icons{
         height: 300px;  
     }
 
     #icons .fa-brands{
-        margin-top: 0px;
+        margin-top: 10px;
         color: #4f4cab7f;
         font-size: 129px;
-        padding: 8px 30px;   
+        padding: 0px 30px;     
     }
 
-    #sobremim {
+    #sobremim{
         padding: 70px 300px 70px 130px;
         font-size: 22px;
     }
