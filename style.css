@@ -37,8 +37,7 @@ nav #menu a {
 
 #cabeçalho {
     background-image: url(imagens/background2.jpg);
-    background-size: cover;
-    height: 560px;
+    background-size: cover;   
     padding-top: 70px;
     color: white;
     text-align: center;
@@ -61,6 +60,7 @@ nav #menu a {
     font-size: 40px;
     padding: 0px 6px 0px 6px;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 
@@ -713,6 +713,7 @@ footer #title{
         border-radius: 7px;
         border: 2px solid rgb(98, 98, 98);
         width: 500px; 
+        max-height: 200px;
     }
     #formulario #btnenviar {
         width: 230px;
