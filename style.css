@@ -96,7 +96,8 @@ nav #menu a {
 #icons {
     height: 11.5em;
     text-align: center;
-    margin-top: 12px;    
+    margin-top: 10px; 
+    margin-bottom: 15px;   
 }
 
 #icons .fa-brands{
