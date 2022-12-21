@@ -11,7 +11,8 @@ a:link{text-decoration:none}
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&display=swap');
 
 nav{
-    background-image: linear-gradient(rgb(9, 9, 51),hsla(248, 100%, 12%, 0.746));
+    background-color: #1414566d;
+    backdrop-filter: blur(5px);
 }
 
 nav #menu a{
