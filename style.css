@@ -324,13 +324,13 @@ nav #menu a{
 
 .card .btn1{
     padding: 7px 17px;
-    border: 2px solid #4d8587;
+    border: 1px solid #4d8587;
 }
 
 .card .btn2{
     background-color: white;
     color: #4d8587;
-    border: 3px solid #4d8587;
+    border: 2px solid #4d8587;
 }
 
 .card i{
