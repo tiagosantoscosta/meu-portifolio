@@ -314,7 +314,7 @@ nav #menu a{
 
 .card button{
     border: none;
-    padding: 8px 8px;
+    padding: 6px 6px;
     border-radius: 10px;
     margin: 5px;
     color: white;
@@ -323,7 +323,14 @@ nav #menu a{
 }
 
 .card .btn1{
-    padding: 8px 17px;
+    padding: 7px 17px;
+    border: 2px solid #4d8587;
+}
+
+.card .btn2{
+    background-color: white;
+    color: #4d8587;
+    border: 3px solid #4d8587;
 }
 
 .card i{
@@ -341,6 +348,8 @@ nav #menu a{
 .card button:hover{
     background-color: #141456;
     transition: all .4s;
+    color: white;
+    border: 3px solid #141456;
 }
 
 #formulario div{
