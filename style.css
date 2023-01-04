@@ -344,6 +344,9 @@ nav .navbar-nav a{
     margin-top: 30px;
 }
 
+#consultacep button{
+    margin-top: 30px ;
+}
 .card button:hover{
     background-color: #141456;
     transition: all .4s;
