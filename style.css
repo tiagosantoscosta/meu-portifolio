@@ -134,6 +134,14 @@ nav .navbar-nav a{
     pointer-events: none;
 }
 
+.to-top p{
+    font-size: 0.25em;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -13px;
+    margin-left: -4px;
+}
+
 .to-top.active{
     right: 20px;
     pointer-events: auto;
