@@ -97,7 +97,7 @@ a:link{text-decoration:none}
     height: 47px;
     background: transparent;
     border-radius: 50%;
-    border: 1.8px solid rgb(255, 255, 255);
+    border: 1.5px solid rgb(255, 255, 255);
     transform: translateY(-31px) scale(0);
 }
 
