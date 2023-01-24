@@ -1,3 +1,6 @@
+@import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+a:link{text-decoration:none}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,28 +8,161 @@
     font-family:'Montserrat', sans-serif;;
 }
 
-@import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
-a:link{text-decoration:none}
-
-
-nav{
-    font-size: 18px;
-    background-color: #14145688;
-    backdrop-filter: blur(5px);
+#navcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;  
 }
 
-nav #menu a{
-    color: rgb(255, 255, 255);
+.navigation{
+    position: relative;  
+    width: 100vw;
+    height: 70px;
+    background: linear-gradient(45deg, #0b2c48ea, #430d1fe5 );
+    display: flex;
+    backdrop-filter: blur( 3px );
+    justify-content: center;
+    align-items: center;
     
 }
 
-nav .navbar-nav a{
-    border-bottom: 1px solid rgba(69, 92, 136, 0.47);
+.navigation ul{
+    display: flex; 
+    margin-left: -30px;
 }
 
-.navbar-toggler .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.navigation ul li{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    z-index: 1;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    padding-top: 3px;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+}
+
+.navigation ul li.active a .icon{
+    transform: translateY(-32px);
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    transform: translateY(20px);
+    font-weight: 400;
+    font-size: 0.95em;
+    color: #fff;
+    letter-spacing: .02em;
+    transition: .5s;
+    opacity: 0;
+}
+
+#textsobremim{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.navigation ul li.active a .text{
+    transform: translateY(10px);
+    opacity: 1;
+    padding-top: 15px;
+}
+
+.navigation ul li a .circle{
+    position: absolute;
+    display: block;
+    width: 53px;
+    height: 53px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1.8px solid #fff;
+    transform: translateY(-31px) scale(0);
+}
+
+.navigation ul li.active a .circle{
+    transition: .5s;
+    transition-delay: .5s;
+    transform: translateY(-31px) scale(1);
+}
+
+.indicator{
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    border: 4px solid rgb(7, 4, 27);
+    border-radius: 50%;
+    background: linear-gradient(45deg, #104169, #710f30 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.indicator::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    
+}
+
+.indicator::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -22px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 20px;
+    
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+    transform: translateX(calc(70px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+    transform: translateX(calc(70px * 1));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+    transform: translateX(calc(70px * 2));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+    transform: translateX(calc(70px * 3));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+    transform: translateX(calc(70px * 4));
 }
 
 #cabeçalho > #elementEl::after{
@@ -43,7 +179,7 @@ nav .navbar-nav a{
 #cabeçalho{
     background-image: url(imagens/background2.jpg);
     background-size: cover;   
-    padding-top: 70px;
+    padding-top: 30px;
     color: white;
     text-align: center;
 }
@@ -422,7 +558,7 @@ textarea{
 
 footer{
     background-color: rgb(33, 33, 33);
-    height: 210px;
+    height: 310px;
     color: rgb(151, 151, 151);
     text-align: center; 
     padding-top: 25px;  
@@ -576,6 +712,51 @@ footer #title{
         border-bottom: none;
     }
 
+    .navigation ul li{
+        position: relative;
+        width: 150px;
+        height: 70px;
+        list-style: none;
+        z-index: 1;
+    }
+
+    .indicator::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -22px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-top-right-radius: 20px;
+        
+    }
+
+    .indicator{
+        margin-left: 40px;
+    }
+    
+    
+    .navigation ul li:nth-child(1).active ~ .indicator {
+        transform: translateX(calc(150px * 0));
+    }
+    
+    .navigation ul li:nth-child(2).active ~ .indicator {
+        transform: translateX(calc(150px * 1));
+    }
+    
+    .navigation ul li:nth-child(3).active ~ .indicator {
+        transform: translateX(calc(150px * 2));
+    }
+    
+    .navigation ul li:nth-child(4).active ~ .indicator {
+        transform: translateX(calc(150px * 3));
+    }
+    
+    .navigation ul li:nth-child(5).active ~ .indicator {
+        transform: translateX(calc(150px * 4));
+    }
+
     .fa-brands{
         color: rgb(255, 255, 255);
         font-size: 3.125em;
@@ -612,7 +793,7 @@ footer #title{
     
     .to-top {
         font-size: 3.5em;
-        bottom: 30px;
+        bottom: 110px;
         right: 0px;
         position: fixed;
         display: flex;
@@ -770,7 +951,7 @@ footer #title{
     }
 
     footer{
-        height: 180px;
+        height: 250px;
         color: rgb(151, 151, 151);
     }
     
