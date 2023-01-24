@@ -710,6 +710,7 @@ footer #title{
         font-weight: 500;
         margin-top: 50px;
     }
+
     nav .navbar-nav a{
         border-bottom: none;
     }
@@ -722,20 +723,9 @@ footer #title{
         z-index: 1;
     }
 
-    .indicator::before{
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: -22px;
-        width: 20px;
-        height: 20px;
-        background: transparent;
-        border-top-right-radius: 20px;
-        
-    }
 
     .indicator{
-        margin-left: 40px;
+        margin-left: 45px;
     }
     
     
