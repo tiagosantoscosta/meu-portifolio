@@ -93,11 +93,11 @@ a:link{text-decoration:none}
 .navigation ul li a .circle{
     position: absolute;
     display: block;
-    width: 53px;
-    height: 53px;
+    width: 47px;
+    height: 47px;
     background: transparent;
     border-radius: 50%;
-    border: 1.8px solid #fff;
+    border: 1.8px solid rgb(255, 255, 255);
     transform: translateY(-31px) scale(0);
 }
 
@@ -109,16 +109,17 @@ a:link{text-decoration:none}
 
 .indicator{
     position: absolute;
-    top: -50%;
-    width: 70px;
-    height: 70px;
-    border: 4px solid rgb(7, 4, 27);
+    top: -43%;
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(41, 96, 117);
     border-radius: 50%;
     background: linear-gradient(45deg, #104169, #710f30 );
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .5s;
+    margin-left: 5px;
 }
 
 .indicator::before{
