@@ -1,5 +1,49 @@
 "use strict";
 
+
+document.addEventListener('DOMContentLoaded', function () {
+  const sections = document.querySelectorAll('.btnMenu');
+  const menuItems = document.querySelectorAll('.navigation .list');
+  let isScrollingAutomatically = false;
+
+  function changeActiveLink() {
+      if (isScrollingAutomatically) return;
+
+      let index = sections.length;
+
+      while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+
+      menuItems.forEach((item) => item.classList.remove('active'));
+      if (menuItems[index]) {
+          menuItems[index].classList.add('active');
+      }
+  }
+
+  function handleMenuClick(event) {
+      event.preventDefault();
+      isScrollingAutomatically = true;
+      const targetId = this.querySelector('a').getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth'
+      });
+
+      setTimeout(() => {
+          isScrollingAutomatically = false;
+          changeActiveLink();
+      }, 500);
+  }
+
+  menuItems.forEach((item) => item.addEventListener('click', handleMenuClick));
+  window.addEventListener('scroll', changeActiveLink);
+});
+
+
+
+
+
 function typeWriter(el) {
     const textArray = el.innerHTML.split("");
     el.innerHTML = "";

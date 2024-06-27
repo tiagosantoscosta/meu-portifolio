@@ -21,7 +21,7 @@ a:link{text-decoration:none}
     position: relative;  
     width: 100vw;
     height: 70px;
-    background: linear-gradient(45deg, #0b2c48ea, #430d1fe5 );
+    background: linear-gradient(45deg, #6499cd8f, #0f144b85 );
     display: flex;
     backdrop-filter: blur( 3px );
     justify-content: center;
@@ -111,9 +111,9 @@ a:link{text-decoration:none}
     top: -43%;
     width: 60px;
     height: 60px;
-    border: 3px solid rgb(41, 96, 117);
+    border: 2px solid rgb(68, 65, 120);
     border-radius: 50%;
-    background: linear-gradient(45deg, #104169, #710f30 );
+    background: linear-gradient(45deg, #557c9c, #120f71 );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +281,7 @@ a:link{text-decoration:none}
 #container-skills{
     background-color: rgb(8, 0, 61);
     color: white;
-    height: 1000px;
+    height: 1050px;
 }
 
 .skills{
@@ -711,7 +711,7 @@ footer #title{
     .navigation{   
         width: 98.9vw;  
         height: 55px;
-        border-radius: 100px 100px 0px 0px;    
+           
     }
 
     .navigation ul li{
@@ -883,7 +883,7 @@ footer #title{
     }
 
     #container-skills{
-        height: 1300px;
+        height: 1200px;
         
     }
     #container2{
@@ -911,9 +911,9 @@ footer #title{
         border-left: 1px solid rgb(130, 130, 130);
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
         border-radius: 35px;
-        height: 450px;
+        height: 400px;
         padding: 0px 30px 30px 30px;
-        background-color: rgba(132, 132, 132, 0.1);
+        background-color: rgba(58, 55, 98, 0.624);
     }
 
     .skills h4{
@@ -938,9 +938,8 @@ footer #title{
     }
     
     #back {
-        height: 300px;
         margin-top: 0px;
-        height: 450px;
+        height: 400px;
     }
 
     #formulario div{
