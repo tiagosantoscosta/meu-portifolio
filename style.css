@@ -305,6 +305,7 @@ a:link{text-decoration:none}
     height: 370px;
     background-color: rgba(58, 55, 98, 0.066); 
     padding: 30px; 
+    transition:all .1s ease;
 }
 
 
@@ -941,7 +942,7 @@ footer #title{
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
         border-radius: 35px;
         height: 450px;
-        padding: 0px 30px 30px 30px;
+        padding:50px 70px;
         background-color: rgba(58, 55, 98, 0.624);
         transition: box-shadow .5s ease;
     }
@@ -952,7 +953,6 @@ footer #title{
 
     .skills h4{
         font-size: 30px;
-        margin-top: 50px;
         margin-bottom: 50px;
     }
 
