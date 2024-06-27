@@ -281,22 +281,39 @@ a:link{text-decoration:none}
 #container-skills{
     background-color: rgb(8, 0, 61);
     color: white;
-    height: 1050px;
+    height: 1400px;
+    
 }
 
+  #container2{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        margin: auto;   
+    }
+
 .skills{
-    display: block;
-    max-width: 450px;
-    margin: auto;
-    margin-bottom: 40px;
+    margin: 15px;
+    width: 320px;
+    border-top: 1px solid rgb(118, 118, 118);
+    border-left: 1px solid rgb(130, 130, 130);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    border-radius: 20px;
+    height: 370px;
+    background-color: rgba(58, 55, 98, 0.066); 
+    padding: 30px; 
 }
+
+
 
 .skills img{
     height: 100px;
     float: right;
-    margin-right: 60px;
     margin-top: -25px;
-    opacity: .9;
+    opacity: .8;
 }
 
 #container-skills h2{
@@ -315,16 +332,16 @@ a:link{text-decoration:none}
 }
 
 .skills h4{
-    margin-top: 20px;
+    
+    margin-bottom: 40px;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
 }
 
 .skills p{
-    margin-left: 40px;
-    margin-bottom: 6px;
-    font-size: 14px;
+    margin-top: -10px;
+    font-size: 16px;
 }
 
 .skills i{
@@ -341,6 +358,14 @@ a:link{text-decoration:none}
     margin-top: -50px;
 }
 
+#btnCv {
+    margin-top: 20px;
+}
+
+.skills:active {
+    box-shadow: 0 0 30px 4px rgba(158, 255, 176, 0.491); /* Efeito de iluminação neon verde */
+}
+
 .vn-green a{
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -348,7 +373,7 @@ a:link{text-decoration:none}
     position:relative;
     padding:10px 10px 10px 50px;
     color:rgb(255, 255, 255);
-    transition:all 0.2s ease;
+    transition:all 0.1s ease;
     border-radius: 10px ;
     font-weight: 400;
     font-size: 20px;
@@ -370,7 +395,7 @@ a:link{text-decoration:none}
 }
 
 .vn-green a:hover{
-    background-color:  rgb(64, 44, 168);
+    background-color:  rgb(58, 47, 114);
     transform: scale(1.1);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);      
@@ -883,7 +908,7 @@ footer #title{
     }
 
     #container-skills{
-        height: 1200px;
+        height: 1400px;
         
     }
     #container2{
@@ -892,7 +917,7 @@ footer #title{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        max-width: 1000px;
+        max-width: 1300px;
         margin: auto;   
     }
 
@@ -905,20 +930,30 @@ footer #title{
         font-size: 45px;
     }
 
+    
+
     .skills{
+        margin: 30px;
         width: 500px;
+        margin: 40px;
         border-top: 1px solid rgb(118, 118, 118);
         border-left: 1px solid rgb(130, 130, 130);
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
         border-radius: 35px;
-        height: 400px;
+        height: 450px;
         padding: 0px 30px 30px 30px;
         background-color: rgba(58, 55, 98, 0.624);
+        transition: box-shadow .5s ease;
+    }
+
+    .skills:hover {
+        box-shadow: 0 0 30px 4px rgba(158, 255, 176, 0.491); /* Efeito de iluminação neon verde */
     }
 
     .skills h4{
         font-size: 30px;
         margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .skills p{
@@ -937,9 +972,8 @@ footer #title{
         margin-right: 30px;
     }
     
-    #back {
-        margin-top: 0px;
-        height: 400px;
+    #btnCv {
+        margin-top: 20px;
     }
 
     #formulario div{
